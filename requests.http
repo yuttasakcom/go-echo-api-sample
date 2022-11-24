@@ -1,0 +1,10 @@
+POST http://localhost:8080/movies HTTP/1.1
+content-type: application/json
+
+{
+    "imdbID": "1",
+    "title": "sample",
+    "year": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "rating": "4",
+    "isSuperHero": "true"
+}
